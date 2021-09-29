@@ -381,7 +381,7 @@
       "in": "query",
       "required": false,
       "type": "string",
-      "description": "The aggregation to use for sorting results and the direction of the sort.\nOnly one order can be specified.\nExamples: sum asc.",
+      "description": "When querying for multiple metrics, sorts metrics based on the given aggregation and direction. The datapoints for each metric will still be sorted by timestamp.\nOnly one order can be specified.\nExamples: sum asc.\nOther aggregation types: avg, max, min",
       "x-ms-parameter-location": "method"
     },
     "ResultTypeParameter": {
